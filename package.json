@@ -2,7 +2,12 @@
   "name": "yp-gulp",
   "version": "1.0.0",
   "main": "lib/index.js",
+  "bin": "bin/yp-gulp.js",
   "license": "MIT",
+  "files": [
+    "lib",
+    "bin"
+  ],
   "dependencies": {
     "@babel/core": "^7.12.7",
     "@babel/preset-env": "^7.12.7",
